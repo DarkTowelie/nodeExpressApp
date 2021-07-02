@@ -1,0 +1,158 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+h2
+{
+    font-size: 40px;
+    font-family: MontserratMedium;
+}
+
+span
+{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: MontserratMedium;
+    display: block;
+}
+
+.wrapScroll
+{
+    background-image: url("../image/wrap.jpg");
+    background-size: cover;
+    overflow: scroll;
+    overflow-x: hidden;
+    height: 100vh;
+
+    width: 100%;
+    margin: auto;
+    min-width: 1024px;
+}
+
+.wrap
+{
+    width: 90%;
+    margin: auto;
+    min-width: 1024px;
+    box-shadow: 3px 3px 10px rgba(0,0,0,0.7), -3px -3px 10px rgba(0,0,0,0.7);
+    background-color: rgba(200, 200, 200, 0.7);
+}
+/*---------------------------------------------------------------------------*/
+.header
+{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100px;
+    border-bottom: solid 2px black;
+}
+
+.header .logo
+{
+    width:25%;
+    float: left;
+}
+
+#regButton
+{
+    border: solid 1px black;
+}
+
+.header img
+{
+    margin-left: 100px;
+    margin-top: 35px;
+    float: left;
+}
+.menu
+{
+    float: right;
+    margin-right: 20px;
+
+}
+
+.menu
+{
+    margin-top: 40px;
+}
+
+.menu a
+{
+    font-family: NunitoSans-Regular;
+    padding: 15px;
+    display: inline;
+    border-radius: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+
+.menu a:hover
+{
+    transition: all ease 2s;
+    background-color: grey;
+    color: white;
+}
+/*---------------------------------------------------------------------------*/
+.footer
+{
+    width: 100%;
+    min-width: 720px;
+    height: 200px;
+    margin:auto;
+    opacity: 80%;
+    background-color: black;
+}
+/*---------------------------------------------------------------------------*/
+
+.hiddenMenu
+{
+    margin-top: 50px;
+    display: none;
+}
+
+.blackButton
+{
+    width: 100px;
+    height: 100px;
+    background-image: url("../image/hiddenMenu.png");
+    background-size: cover;
+    padding: 10px;
+    margin: auto;
+}
+.hiddenNavig a
+{
+    display: block;
+    font-size: 55px;
+    background-color: grey;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    padding: 40px;
+}
+
+.hiddenNavig {
+    visibility: hidden;
+}
+
+@media only screen and (max-device-width:480px) {
+    .menu{
+        display: none;
+    }
+    
+    .hiddenMenu{
+        display: block;
+        z-index: 2;
+    }
+
+    .header{
+        height: 200px;
+    }
+
+    .header img{
+        margin-top: 60px;
+        width: 100px;
+    }
+}

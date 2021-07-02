@@ -1,0 +1,27 @@
+{
+  "name": "darktowelie.github.io",
+  "version": "1.0.0",
+  "description": "My portfolio project",
+  "main": "index.js",
+  "scripts": {
+    "test": "run_test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DarkTowelie/DarkTowelie.github.io.git"
+  },
+  "keywords": [
+    "NodeJs",
+    "mailsender"
+  ],
+  "author": "DarkTowelie",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DarkTowelie/DarkTowelie.github.io/issues"
+  },
+  "homepage": "https://github.com/DarkTowelie/DarkTowelie.github.io#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemailer": "^6.6.1"
+  }
+}

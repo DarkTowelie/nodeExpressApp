@@ -1,0 +1,19 @@
+.games
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	width: 100%;
+	background-color: rgba(255, 255, 255, .8);
+}
+
+#flappyBird
+{
+	margin: 25px;
+	border: solid 1px black;
+}
+#flappyBird:hover
+{
+	cursor: pointer;
+}

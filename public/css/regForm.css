@@ -1,0 +1,49 @@
+.regContainer
+{
+    height: 500px;
+}
+
+#regForm
+{
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 600px;
+    height: 450px;
+    border: solid 1px grey;
+    background-color: #D3D3D3;
+}
+
+#regForm input
+{
+    width: 80%;
+    border-radius: 20px;
+    height: 60px;
+    font-size: 30px;
+    display: block;
+    margin: auto;
+    margin-top: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: solid 3px grey;
+}
+
+#regForm input:focus
+{
+    outline: none;
+}
+
+#regForm #send
+{
+    width: 50%;
+    cursor: pointer;
+    background-color: grey;
+    color: white;
+    border: solid 3px ivory;
+}
+
+#regForm .redBorder
+{
+    border: solid 3px red;
+}
